@@ -12,7 +12,6 @@
 
 .article__body {
     flex-grow: 1;
-    border-right: 1px #000000;
 }
 
 .article__header {
@@ -20,4 +19,19 @@
     align-content: center;
     text-align: center;
     align-self: end;
+}
+
+.article__footer {
+    align-content: center;
+    order: 1;
+}
+
+.article::after {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 80px;
+    background-color: black;
+    flex-shrink: 0;
+    align-self: center;
 }
