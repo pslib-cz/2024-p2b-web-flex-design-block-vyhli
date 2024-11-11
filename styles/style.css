@@ -1,11 +1,13 @@
 .content {
-
+    
 }
 .content--wrapper {
 
 }
 
 .article {
+    display: flex;
+    column-gap: 1em;
 
 }
 
