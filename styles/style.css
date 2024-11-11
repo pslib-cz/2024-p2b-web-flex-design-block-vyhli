@@ -12,5 +12,12 @@
 
 .article__body {
     flex-grow: 1;
+    border-right: 1px #000000;
 }
 
+.article__header {
+    flex-shrink: 0;
+    align-content: center;
+    text-align: center;
+    align-self: end;
+}
