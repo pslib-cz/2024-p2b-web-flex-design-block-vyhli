@@ -8,10 +8,9 @@
 .article {
     display: flex;
     column-gap: 1em;
-
 }
 
 .article__body {
-
+    flex-grow: 1;
 }
 
