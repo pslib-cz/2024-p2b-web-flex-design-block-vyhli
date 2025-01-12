@@ -16,10 +16,10 @@ h1 {
 .content {
     max-width: 1300px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-    padding: 0 1em;
+    
+    
+    
+    
 }
 
 
@@ -35,8 +35,8 @@ h1 {
 }
 
 .article__header {
-    grid-column: 1;
-    grid-row: 2;
+
+
     background-color: #e3f2fd;
     text-align: center;
     padding: 1em;
@@ -47,7 +47,7 @@ h1 {
 .article::after {
     content: "";
     grid-column:2;
-    grid-row: 1 / span 2;
+    grid-row: 1;
     justify-self: center; 
     width: 3px;
     height: 80px;
@@ -56,16 +56,16 @@ h1 {
 
 
 .article__body {
-    grid-column: 3;
-    grid-row: 2;
+
+
     padding: 1em;
     background-color: #f3f3f3;
 }
 
 
 .article__footer {
-    grid-column: 4;
-    grid-row: 2;
+
+
     background-color: #e3f2fd;
     text-align: center;
     padding: 1em;
